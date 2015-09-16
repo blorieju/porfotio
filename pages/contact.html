@@ -1,0 +1,36 @@
+<div class="row" style="margin-top: 40px;">
+    <div class="col-md-6" style="background-color: rgba(0, 0, 0, 0.6);">
+        <h3 style="margin-top: 30px;" class="aboutName">Lorie - Ju "Baz" C. Basilio</h3>
+        <p style="text-align: justify">I'm PHP developer using CodeIgniter since 2013 and
+            changed to Laravel since 2014 to present. Capable
+            for Front-end and Backend application
+            for Web and Desktop development.</p>
+        <hr />
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1"><a href="https://www.facebook.com/lorieju.basilio" class="btn btn-info btn-circle btn-lg" target="_blank"><i class="fa fa-facebook"></i></a></div>
+            <div class="col-md-2"><a href="https://github.com/blorieju" class="btn btn-success btn-circle btn-lg" target="_blank"><i class="fa fa-github"></i></a></div>
+            <div class="col-md-2"><a href="https://bitbucket.org/lorieju/" class="btn btn-primary btn-circle btn-lg" target="_blank"><i class="fa fa-bitbucket"></i></a></div>
+            <div class="col-md-2">
+                <button type="button" id="skype" class="btn btn-info btn-circle btn-lg" data-placement="top">
+                    <i class="fa fa-skype"></i>
+                </button>
+            </div>
+            <div class="col-md-2">
+                <button type="button" id="gmail" class="btn btn-danger btn-circle btn-lg" data-placement="top">
+                    <i class="fa fa-google"></i>
+                </button>
+            </div>
+        </div>
+        <br />
+    </div>
+    <div class="col-md-6">
+        <img class="img-circle"style="border: 6px solid #fff" src="/img/aboutMe.png">
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('#skype').webuiPopover({content:'ID: lorieju',style:'inverse',closeable:true,animation:'pop'});
+        $('#gmail').webuiPopover({content:'Email: lorieju@gmail.com',style:'inverse',closeable:true,animation:'pop'});
+    });
+</script>
+
