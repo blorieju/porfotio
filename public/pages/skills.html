@@ -1,0 +1,53 @@
+<style>
+    .skills {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+        cursor: pointer;
+    }
+
+    .skills:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
+    }
+</style>
+<div class="row" style="margin-top: 40px;">
+    <div class="col-md-6" style="border-right: 6px solid #fff">
+        <br />
+        <h4>Development</h4>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 skills"><img id="css" src="/img/skills/css.png"></div>
+            <div class="col-md-2 skills"><img id="html" src="/img/skills/html.png"></div>
+            <div class="col-md-2 skills"><img id="jquery" src="/img/skills/jquery.png"></div>
+            <div class="col-md-2 skills"><img id="vuejs" src="/img/skills/vuejs.png"></div>
+            <div class="col-md-2 skills"><img id="bootstrap" src="/img/skills/bootstrap.png"></div>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 skills"><img id="api" src="/img/skills/api.png"></div>
+            <div class="col-md-2 skills"><img id="ci" src="/img/skills/CI.png"></div>
+            <div class="col-md-2 skills"><img id="laravel" src="/img/skills/laravel.png"></div>
+            <div class="col-md-2 skills"><img id="mysql" src="/img/skills/mysql.png"></div>
+            <div class="col-md-2 skills"><img id="xampp" src="/img/skills/xampp.png"></div>
+        </div>
+        <br />
+        <br />
+        <h4>Software</h4>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 skills"><img id="smartgit" src="/img/skills/smartgit.png"></div>
+            <div class="col-md-2 skills"><img id="putty" src="/img/skills/putty.png"></div>
+            <div class="col-md-2 skills"><img id="storm" src="/img/skills/storm.png"></div>
+            <div class="col-md-2 skills"><img id="sublime" src="/img/skills/sublime.png"></div>
+            <div class="col-md-2 skills"><img id="ps" src="/img/skills/ps.png"></div>
+        </div>
+        <br />
+        <br />
+    </div>
+    <div class="col-md-6" style="margin-top: 40px">
+        <div class="text-circle font_montserrat">Skills</div>
+    </div>
+</div>
+
+<script src="/js/skillsInfo.js"></script>
+
